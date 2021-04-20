@@ -4,7 +4,11 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Em utils constanst.dart.
+Alterar a BASE_API_URL para seu  banco do firebase  
+
+Em providers auth.dart.
+Alterar o final da variavel url 'key' do metódo _authenticate para key do seu firebase
 
 A few resources to get you started if this is your first Flutter project:
 
