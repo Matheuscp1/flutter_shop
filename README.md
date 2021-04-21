@@ -10,6 +10,15 @@ Alterar a BASE_API_URL para seu  banco do firebase
 Em providers auth.dart.
 Alterar o final da variavel url 'key' do metódo _authenticate para key do seu firebase
 
+Alterar a regra do firebase Realtime Database
+
+{
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null"
+  }
+}
+
 A few resources to get you started if this is your first Flutter project:
 
 - [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
